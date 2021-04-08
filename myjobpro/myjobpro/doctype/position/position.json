@@ -1,0 +1,193 @@
+{
+ "actions": [],
+ "autoname": "JD.#####",
+ "creation": "2021-02-19 21:34:05.812863",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "status",
+  "subject",
+  "country",
+  "min_exp",
+  "max_exp",
+  "salary_currency",
+  "salary_range",
+  "qualification",
+  "specialization",
+  "key_words",
+  "column_break_10",
+  "industry",
+  "posting_date",
+  "valid_till",
+  "functional_area",
+  "work_hrs",
+  "transportation",
+  "contract_period_year",
+  "food",
+  "accommodation",
+  "leave",
+  "visa_type",
+  "over_time",
+  "about_client",
+  "section_break_24",
+  "job_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country"
+  },
+  {
+   "fieldname": "min_exp",
+   "fieldtype": "Data",
+   "label": "Min Exp"
+  },
+  {
+   "fieldname": "max_exp",
+   "fieldtype": "Data",
+   "label": "Max Exp"
+  },
+  {
+   "fieldname": "salary_currency",
+   "fieldtype": "Data",
+   "label": "Salary Currency"
+  },
+  {
+   "fieldname": "salary_range",
+   "fieldtype": "Data",
+   "label": "Salary Range"
+  },
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Data",
+   "label": "Qualification"
+  },
+  {
+   "fieldname": "specialization",
+   "fieldtype": "Data",
+   "label": "Specialization"
+  },
+  {
+   "fieldname": "key_words",
+   "fieldtype": "Data",
+   "label": "Key Words"
+  },
+  {
+   "fieldname": "job_description",
+   "fieldtype": "Text Editor",
+   "label": "Job Description"
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Data",
+   "label": "Industry"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "valid_till",
+   "fieldtype": "Date",
+   "label": "Valid Till"
+  },
+  {
+   "fieldname": "functional_area",
+   "fieldtype": "Data",
+   "label": "Functional Area"
+  },
+  {
+   "fieldname": "transportation",
+   "fieldtype": "Data",
+   "label": "Transportation"
+  },
+  {
+   "fieldname": "contract_period_year",
+   "fieldtype": "Data",
+   "label": "Contract Period Year"
+  },
+  {
+   "fieldname": "food",
+   "fieldtype": "Data",
+   "label": "Food"
+  },
+  {
+   "fieldname": "accommodation",
+   "fieldtype": "Data",
+   "label": "Accommodation"
+  },
+  {
+   "fieldname": "leave",
+   "fieldtype": "Data",
+   "label": "Leave"
+  },
+  {
+   "fieldname": "over_time",
+   "fieldtype": "Data",
+   "label": "Over Time"
+  },
+  {
+   "fieldname": "about_client",
+   "fieldtype": "Data",
+   "label": "About Client"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nActive\nExpired"
+  },
+  {
+   "fieldname": "work_hrs",
+   "fieldtype": "Data",
+   "label": "Working Days/HRS"
+  },
+  {
+   "fieldname": "visa_type",
+   "fieldtype": "Data",
+   "label": "Employment / Visa Type"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-03-13 15:19:03.343427",
+ "modified_by": "Administrator",
+ "module": "Myjobpro",
+ "name": "Position",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
